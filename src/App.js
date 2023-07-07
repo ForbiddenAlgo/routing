@@ -1,4 +1,4 @@
-import React , {useState} from 'react';
+import React from 'react';
 import './App.css';
 // import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -7,10 +7,10 @@ import About from './components/about';
 import Contact from './components/contact';
 // import {BrowserRouter} from 'react-router-dom';
 import {
-  BrowserRouter as Router,
-  Switch,
+  //  as Router,
+  // Switch,
   Route,
-  Link,
+  // Link,
   BrowserRouter,
   Routes
 } from "react-router-dom";
